@@ -1,18 +1,99 @@
 {
   "name": "ai-stock-intelligence",
-  "description": "Open Agent Skills for adversarial value-investing research and earnings review.",
-  "version": "0.1.0",
+  "description": "Agent Skills converted from xbtlin/ai-berkshire for value-investing research, earnings review, industry work, portfolio review, and investment writing.",
+  "version": "0.2.0",
   "license": "MIT",
+  "source_repository": "https://github.com/xbtlin/ai-berkshire",
   "skills": [
     {
-      "name": "corporate-deep-dive",
-      "path": "skills/corporate-deep-dive",
-      "description": "Executes an adversarial value-investing research dialectic on a public equity ticker using Buffett, Munger, Yongping, and Li Lu lenses."
+      "name": "bottleneck-hunter",
+      "path": "skills/bottleneck-hunter",
+      "description": "Finds investable public companies created by second- and third-order supply-chain bottlenecks behind major physical supertrends."
     },
     {
-      "name": "earnings-reviewer",
-      "path": "skills/earnings-reviewer",
-      "description": "Reviews quarterly and annual earnings materials with deterministic deltas, accounting checks, guidance changes, and verdict sections."
+      "name": "deep-company-series",
+      "path": "skills/deep-company-series",
+      "description": "Builds a serialized deep-company research plan and article/report sequence for a public or private company."
+    },
+    {
+      "name": "dyp-ask",
+      "path": "skills/dyp-ask",
+      "description": "Analyzes a company through Duan Yongping-style product truth, customer value, pricing restraint, and long-term compounding questions."
+    },
+    {
+      "name": "earnings-review",
+      "path": "skills/earnings-review",
+      "description": "Reviews a company earnings release or filing with value-investing discipline, data verification, deltas, and thesis-impact judgment."
+    },
+    {
+      "name": "earnings-team",
+      "path": "skills/earnings-team",
+      "description": "Runs a multi-agent earnings-review team workflow that assigns specialist reviewers and synthesizes their findings."
+    },
+    {
+      "name": "financial-data",
+      "path": "skills/financial-data",
+      "description": "Collects, audits, reconciles, and structures financial data for public-company research workflows."
+    },
+    {
+      "name": "industry-funnel",
+      "path": "skills/industry-funnel",
+      "description": "Funnels an industry from broad universe to high-quality investable candidates using moat, economics, and valuation filters."
+    },
+    {
+      "name": "industry-research",
+      "path": "skills/industry-research",
+      "description": "Performs industry-level research, structure mapping, value-chain analysis, competitive dynamics, and investable-company identification."
+    },
+    {
+      "name": "investment-checklist",
+      "path": "skills/investment-checklist",
+      "description": "Applies a disciplined value-investing checklist to a company, including business quality, management, risk, and valuation gates."
+    },
+    {
+      "name": "investment-research",
+      "path": "skills/investment-research",
+      "description": "Produces a full value-investing research report for a company using Buffett, Munger, Duan Yongping, and Li Lu perspectives."
+    },
+    {
+      "name": "investment-team",
+      "path": "skills/investment-team",
+      "description": "Runs the multi-agent value-investing team dialectic and synthesizes specialist investor-persona conclusions."
+    },
+    {
+      "name": "management-deep-dive",
+      "path": "skills/management-deep-dive",
+      "description": "Researches management quality, incentives, capital allocation, culture, governance, and evidence of owner-orientation."
+    },
+    {
+      "name": "news-pulse",
+      "path": "skills/news-pulse",
+      "description": "Scans recent company, industry, and macro news for signal versus noise and investment-thesis impact."
+    },
+    {
+      "name": "portfolio-review",
+      "path": "skills/portfolio-review",
+      "description": "Reviews a portfolio through position sizing, thesis drift, risk concentration, valuation, and opportunity-cost lenses."
+    },
+    {
+      "name": "private-company-research",
+      "path": "skills/private-company-research",
+      "description": "Researches a private company using available public sources, industry context, business model analysis, and risk checks."
+    },
+    {
+      "name": "quality-screen",
+      "path": "skills/quality-screen",
+      "description": "Screens companies for high-quality business characteristics, durability, returns on capital, and reinvestment runway."
+    },
+    {
+      "name": "thesis-tracker",
+      "path": "skills/thesis-tracker",
+      "description": "Tracks an investment thesis over time with milestones, disconfirming evidence, kill criteria, and review cadence."
+    },
+    {
+      "name": "wechat-article",
+      "path": "skills/wechat-article",
+      "description": "Converts investment research into a structured long-form WeChat-style article while preserving evidence and nuance."
     }
   ]
 }
