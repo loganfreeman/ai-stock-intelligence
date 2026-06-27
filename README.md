@@ -46,16 +46,82 @@ git submodule add https://github.com/your-username/ai-stock-intelligence.git .ag
 
 Ask your agent for one of the converted workflows:
 
+### Single-company research
+
 ```text
 Use investment-research to analyze Costco as a long-term compounder.
+```
+
+```text
+Use investment-team to run a Buffett, Munger, Duan Yongping, and Li Lu investment committee on ASML.
+```
+
+```text
+Use investment-checklist to evaluate whether MercadoLibre passes a value-investing quality checklist.
+```
+
+```text
+Use management-deep-dive to assess the quality, incentives, and capital allocation record of Apple's management team.
+```
+
+### Earnings and news
+
+```text
+Use earnings-review to analyze NVIDIA's latest quarterly results against guidance and the long-term thesis.
+```
+
+```text
+Use earnings-team to run a multi-agent review of Tesla's most recent earnings release and conference call.
+```
+
+```text
+Use news-pulse to summarize the last 30 days of thesis-relevant news for TSMC and separate signal from noise.
+```
+
+### Industry and screening
+
+```text
+Use industry-research to map the global obesity-drug value chain and identify the most advantaged public companies.
+```
+
+```text
+Use industry-funnel to narrow the cybersecurity sector to the five highest-quality compounder candidates.
+```
+
+```text
+Use quality-screen to screen Japanese listed companies for high returns on capital, net cash balance sheets, and reinvestment runway.
 ```
 
 ```text
 Use bottleneck-hunter to find second-order public-company beneficiaries of AI data-center buildout.
 ```
 
+### Portfolio and thesis work
+
 ```text
-Use earnings-review to analyze NVIDIA's latest quarterly results against guidance and the long-term thesis.
+Use portfolio-review to review this portfolio for concentration risk, thesis drift, and opportunity cost: COST 25%, BRK.B 20%, MSFT 20%, TSM 15%, CASH 20%.
+```
+
+```text
+Use thesis-tracker to create a monitoring checklist and kill criteria for my long-term Adobe thesis.
+```
+
+```text
+Use financial-data to collect and reconcile the last 5 years of revenue, operating income, net income, free cash flow, and shares outstanding for LVMH.
+```
+
+### Publishing and private-company research
+
+```text
+Use private-company-research to research Stripe from public sources, focusing on business model, competitors, and IPO-readiness signals.
+```
+
+```text
+Use deep-company-series to design a 5-part research series on BYD for long-form publication.
+```
+
+```text
+Use wechat-article to turn this investment memo into a polished Chinese WeChat article while preserving the evidence and caveats.
 ```
 
 ## Repository Layout
